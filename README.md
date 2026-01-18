@@ -23,7 +23,4 @@ It covers fundamental concepts along with hands-on examples to build a strong fo
 - Each folder/file represents a specific concept or practice example
 - Code is written in a simple and easy-to-understand way
 
-## 🚀 Getting Started
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/html.git
+
