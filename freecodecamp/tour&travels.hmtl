@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Travel Agency Page</title>
+    <meta name="description" content="Explore amazing destinations with our trusted travel agency. Book affordable tour packages, flights, hotels, and unforgettable travel experiences worldwide.">
+    </head>
+    <body>
+      <h1>Explore the World with Confidence
+      </h1>
+      <p>Explore the world with endless travel opportunities designed just for you. From relaxing beach getaways to exciting adventure tours and cultural experiences, we help you discover amazing destinations with comfort, affordability, and unforgettable memories at every step of your journey.
+      </p>
+      <h2>Packages</h2>
+      <p>We offer a wide range of travel packages to suit every kind of traveler. Whether you’re looking for a budget-friendly trip, a luxury holiday, a romantic honeymoon, a family vacation, or an adventure tour, our carefully curated packages include the best destinations, comfortable stays, and seamless travel experiences.</p>
+        <ul>
+          <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+          <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+        </ul>
+      
+      <h2>Top Itineraries</h2>
+      <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="The Colosseum"></a>
+        <figcaption>
+The Colosseum — Ancient Rome’s Iconic Amphitheater
+        </figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="The Alps"></a>
+        <figcaption>
+The Majestic Alps — Nature’s Grand Canvas
+        </figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Ocean"></a>
+        <figcaption>
+Crystal-Clear Waters and Endless Horizons
+        </figcaption>
+      </figure>
+    </body>
+  
+</html>
