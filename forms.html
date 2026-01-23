@@ -21,66 +21,67 @@
         <br><br>
         <button type="submit">Submit</button>
     </form>
-   <hr>
-        <h2>Hijacking Searches</h2>
-        <h3>Search in google</h3>
-        <from action="https://www.google.com/search" method="GET">
-            <input type="text" name="q" placeholder="Search Google">
+    <hr>
+    <h2>Hijacking Searches</h2>
+    <h3>Search in google</h3>
+    <from action="https://www.google.com/search" method="GET">
+        <input type="text" name="q" placeholder="Search Google">
+        <button type="submit">Search</button>
+        </form>
+
+        <h3>Search in reddit</h3>
+        <form action="https://www.reddit.com/search" method="GET">
+            <input type="text" name="q" placeholder="Search Reddit">
             <button type="submit">Search</button>
-            </form>
+        </form>
 
-            <h3>Search in reddit</h3>
-            <form action="https://www.reddit.com/search" method="GET">
-                <input type="text" name="q" placeholder="Search Reddit">
-                <button type="submit">Search</button>
-            </form>
+        <h3>Search in youtube</h3>
+        <form action="https://www.youtube.com/results" method="GET">
+            <input type="text" name="search_query" placeholder="Search YouTube">
+            <button type="submit">Search</button>
+        </form>
+        <hr>
+        <h3>More Inputs in Form</h3>
+        <h4>Checkbox Input</h4>
+        <form action="">
+            <input type="checkbox" id="agree" name="agree_to">
+            <label for="agree">I agree to the terms and conditions</label>
+            <button type="submit">Submit</button>
+        </form>
+        <h4>Radio Input</h4>
+        <form action="">
+            <input type="radio" id="option1" name="options" value="option1">
+            <label for="option1">Yes</label><br>
+            <input type="radio" id="option2" name="options" value="option2">
+            <label for="option2">No</label><br>
+            <button type="submit">Submit</button>
+        </form>
+        <h4>Dropdown Select</h4>
+        <form action="">
+            <label for="meals">Choose an option for Entree</label>
+            <select id="meals" name="meals">
+                <option value="option1">Veg</option>
+                <option value="option2">Non-Veg</option>
+                <option value="option3">Vegan</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+        <h4>Range Input</h4>
+        <form action="">
+            <label for="range">Choose a number between 1 and 10:</label>
+            <input type="range" id="range" name="range" min="1" max="10" name="range">
+            <button type="submit">Submit</button>
+        </form>
 
-             <h3>Search in youtube</h3>
-            <form action="https://www.youtube.com/results" method="GET">
-                <input type="text" name="search_query" placeholder="Search YouTube">
-                <button type="submit">Search</button>
-            </form>
-            <hr>
-            <h3>More Inputs in Form</h3>
-            <h4>Checkbox Input</h4>
-            <form action="">
-                <input type="checkbox" id="agree" name="agree_to">
-                <label for="agree">I agree to the terms and conditions</label>
-                <button type="submit">Submit</button>
-            </form>
-            <h4>Radio Input</h4>
-            <form action="">
-                <input type="radio" id="option1" name="options" value="option1">
-                <label for="option1">Yes</label><br>
-                <input type="radio" id="option2" name="options" value="option2">
-                <label for="option2">No</label><br>
-                <button type="submit">Submit</button>
-            </form>
-            <h4>Dropdown Select</h4>
-            <form action="">
-                <label for="meals">Choose an option for Entree</label>
-                <select id="meals" name="meals">
-                    <option value="option1">Veg</option>
-                    <option value="option2">Non-Veg</option>
-                    <option value="option3">Vegan</option>
-                </select>
-                <button type="submit">Submit</button>
-            </form>
-             <h4>Range Input</h4>
-            <form action="">
-                <label for="range">Choose a number between 1 and 10:</label>
-                <input type="range" id="range" name="range" min="1" max="10" name="range">
-                <button type="submit">Submit</button>
-            </form>
+        <h4>Textarea Input</h4>
+        <form action="">
+            <label for="comments">Any message??</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"
+                placeholder="Enter your message here..."></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
 
-            <h4>Textarea Input</h4>
-            <form action="">
-                <label for="comments">Any message??</label><br>
-                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your message here..."></textarea><br>
-                <button type="submit">Submit</button>
-            </form>
-
-    </form>
+        </form>
 </body>
 
 </html>
