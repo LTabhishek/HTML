@@ -3,8 +3,10 @@ h1 {
     font-weight: normal;
     text-decoration: underline blue wavy;
     letter-spacing: 10px;
+    font-family: monospace;
 }
 
 p {
     line-height: normal;
+    font-family: papyrus, sans-serif;
 }
