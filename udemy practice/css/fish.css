@@ -10,3 +10,7 @@ p {
     line-height: normal;
     font-family: papyrus, sans-serif;
 }
+
+body {
+    background-color: lightblue;
+}
