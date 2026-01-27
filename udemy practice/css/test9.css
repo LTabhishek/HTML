@@ -10,3 +10,7 @@ li {
     color: white;
     background-color: red;
 }
+
+li a {
+    color: grey;
+}
