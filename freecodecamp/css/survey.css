@@ -9,3 +9,9 @@ div.header {
     color: white;
     margin: 0;
 }
+
+#description {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
