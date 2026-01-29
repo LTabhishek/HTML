@@ -29,6 +29,7 @@ form {
     background-color: #e6e6fa;
     padding: 20px;
     border-radius: 5px;
+    border-style: solid;
     max-width: 600px;
     margin: auto;
     text-align: left;
