@@ -69,9 +69,7 @@ textarea {
 }
 
 input[type=text],
-input[type=email],
-input[type=number] {
-
+input[type=email] {
     padding: 10px;
     margin: 10px 0 20px 0;
     border: 3px solid #000000;
@@ -80,6 +78,15 @@ input[type=number] {
     opacity: 0.9;
 }
 
+input[type=number] {
+    width: 27%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
 
 select {
 
@@ -89,4 +96,8 @@ select {
     border-radius: 4px;
     box-sizing: border-box;
     opacity: 0.9;
+}
+
+#dropdown {
+    width: auto;
 }
