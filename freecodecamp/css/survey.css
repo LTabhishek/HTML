@@ -26,7 +26,7 @@ div.header {
 }
 
 form {
-    background-color: #e6e6fa;
+
     padding: 20px;
     border-radius: 5px;
     border-style: solid;
@@ -43,11 +43,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-
-}
-
-button:opacity {
-    opacity: 100%;
 }
 
 button:hover {
@@ -63,7 +58,35 @@ label {
     font-size: 18px;
 }
 
-#survey-form {
-    margin-top: 20px;
-    opacity: 100%;
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+,
+select {
+
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 0.9;
 }
