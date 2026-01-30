@@ -3,6 +3,7 @@ body {
     background-color: #32345f;
     margin: 0;
     padding: 0;
+    color: azure;
 }
 
 div.header {
@@ -28,8 +29,8 @@ div.header {
 form {
 
     padding: 20px;
-    border-radius: 5px;
-    border-style: solid;
+    border: 5px solid #000000;
+    border-radius: 10px;
     max-width: 600px;
     margin: auto;
     text-align: left;
