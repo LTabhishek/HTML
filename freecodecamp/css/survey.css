@@ -1,9 +1,15 @@
+.background {
+    background-image: url("C:\\Users\\91919\\OneDrive\\Desktop\\html-css\\frontend-mini-projects\\landing-page\\images\\laptop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #32345f;
+
     margin: 0;
     padding: 0;
-    color: azure;
+    color: rgb(14, 14, 14);
 }
 
 div.header {
