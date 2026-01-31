@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
-    background-color: #9aa0d6;
+    background-color: rgba(26, 50, 99, 0.5);
 }
 
 div.header {
@@ -39,7 +39,7 @@ form {
 }
 
 button {
-    background-color: #535783;
+    background-color: #6165a2;
     color: white;
     border: none;
     padding: 10px 20px;
