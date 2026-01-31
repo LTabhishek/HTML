@@ -1,27 +1,23 @@
-.background {
-    background-image: url("C:\\Users\\91919\\OneDrive\\Desktop\\html-css\\frontend-mini-projects\\landing-page\\images\\laptop.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 body {
     font-family: Arial, sans-serif;
-
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: #9aa0d6;
 }
 
 div.header {
     text-align: center;
     padding: 5px;
-    background-color: #999dd6;
+    background-color: #6165a2;
+
 }
 
 #title {
     font-size: 2.5em;
     color: white;
     margin: 0;
+    padding: 10px;
 }
 
 #description {
@@ -33,7 +29,7 @@ div.header {
 }
 
 form {
-
+    background-color: bisque;
     padding: 20px;
     border: 5px solid #000000;
     border-radius: 10px;
@@ -52,11 +48,23 @@ button {
     font-size: 16px;
 }
 
+/* .img {
+    width: 50%;
+    height: 200px;
+    background-image: url("C:\\Users\\91919\\OneDrive\\Desktop\\html-css\\frontend-mini-projects\\landing-page\\images\\laptop.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+} */
+
+
 button:hover {
     background-color: #7f7fc1;
 }
 
 .learn {
+
     font-size: 20px;
     margin-top: 20px;
 }
