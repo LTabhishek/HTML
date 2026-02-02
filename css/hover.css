@@ -14,3 +14,7 @@ button {
     padding: 1em 2em;
     font-size: 1em;
 }
+
+button:hover {
+    border-color: #f1ff5c;
+}
