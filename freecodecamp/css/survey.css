@@ -62,6 +62,7 @@ button {
 button:hover {
     background-color: #7f7fc1;
     transform: scale(1.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .learn {
