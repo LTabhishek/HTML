@@ -46,6 +46,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
 /* 
@@ -60,7 +61,7 @@ button {
 
 button:hover {
     background-color: #7f7fc1;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .learn {
