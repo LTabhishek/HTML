@@ -6,10 +6,17 @@ h1 {
     text-align: center;
 }
 
-#container {
+.container {
     background-color: #003949;
     height: 500px;
     width: 90%;
     margin: 0 auto;
     border: 5px solid #003949;
+    display: flex;
+    flex-direction: row;
+}
+
+.container div {
+    width: 200px;
+    height: 200px;
 }
