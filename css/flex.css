@@ -8,8 +8,8 @@ h1 {
 
 #container {
     background-color: #003949;
-    height: auto;
-    width: auto;
-    margin: 20px;
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
     border: 5px solid #003949;
 }
