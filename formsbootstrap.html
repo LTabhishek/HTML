@@ -10,30 +10,39 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="display-4">Forms in Bootstrap</h1>
-        <form>
-            <div>
-                <div class="form-group">
-                    <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
 
-                <div class="form-group">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password">
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="remember">
-                    <label class="form-check-label" for="remember">
-                        Remember Me
-                    </label>
-                </div>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow p-4">
+                <h3 class="text-center mb-4">Login</h3>
 
-                <button type="submit" class="btn btn-primary">Login</button>
+                <!-- Your form here -->
+                <form>
+                    <div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="remember">
+                            <label class="form-check-label" for="remember">
+                                Remember Me
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
