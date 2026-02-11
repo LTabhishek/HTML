@@ -4,91 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Forms in Bootstrap</title>
 </head>
 
-<body>
-    <h1>This is the Forms page.</h1>
-    <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" placeholder="Username" name="username">
-        <br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="password" name="password">
-        <br><br>
-        <label for="number">Number:</label>
-        <input type="number" id="number" name="number" placeholder="number" name="number">
-        <br><br>
-        <button type="submit">Submit</button>
-    </form>
-    <hr>
-    <h2>Hijacking Searches</h2>
-    <h3>Search in google</h3>
-    <form action="https://www.google.com/search" method="GET">
-        <input type="text" name="q" placeholder="Search Google">
-        <button type="submit">Search</button>
-    </form>
+<body class="bg-info">
+    <div class="container mt-5">
+        <div class="container mt-5">
+            <div class="card p-4 shadow">
+                <h1 class="display-4 mb-4">Forms</h1>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                    </div>
 
-    <h3>Search in reddit</h3>
-    <form action="https://www.reddit.com/search" method="GET">
-        <input type="text" name="q" placeholder="Search Reddit">
-        <button type="submit">Search</button>
-    </form>
+                    <div class="form-group">
+                        <label for="address">Street Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Street Address">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" id="city" placeholder="City">
+                        </div>
+                        <div class="form-group col-md-3 col-sm-6">
+                            <label for="state">State</label>
+                            <select id="state" class="form-control" name="state">
+                                <option value="uk">Uttarakhand</option>
+                                <option value="pb">Punjab</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3 col-sm-6">
+                            <label for="zip">Zipcode</label>
+                            <input type="text" class="form-control" id="zip" placeholder="Zipcode">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="remember">
+                            <label class="custom-control-label" for="remember">Remember Me</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
 
-    <h3>Search in youtube</h3>
-    <form action="https://www.youtube.com/results" method="GET">
-        <input type="text" name="search_query" placeholder="Search YouTube">
-        <button type="submit">Search</button>
-    </form>
-    <hr>
-    <h3>More Inputs in Form</h3>
-    <h4>Checkbox Input</h4>
-    <form action="">
-        <input type="checkbox" id="agree" name="agree_to">
-        <label for="agree">I agree to the terms and conditions</label>
-        <button type="submit">Submit</button>
-    </form>
-    <h4>Radio Input</h4>
-    <form action="">
-        <input type="radio" id="option1" name="options" value="option1">
-        <label for="option1">Yes</label><br>
-        <input type="radio" id="option2" name="options" value="option2">
-        <label for="option2">No</label><br>
-        <button type="submit">Submit</button>
-    </form>
-    <h4>Dropdown Select</h4>
-    <form action="">
-        <label for="meals">Choose an option for Entree</label>
-        <select id="meals" name="meals">
-            <option value="option1">Veg</option>
-            <option value="option2">Non-Veg</option>
-            <option value="option3">Vegan</option>
-        </select>
-        <button type="submit">Submit</button>
-    </form>
-    <h4>Range Input</h4>
-    <form action="">
-        <label for="range">Choose a number between 1 and 10:</label>
-        <input type="range" id="range" name="range" min="1" max="10" name="range">
-        <button type="submit">Submit</button>
-    </form>
-
-    <h4>Textarea Input</h4>
-    <form action="">
-        <label for="comments">Any message??</label><br>
-        <textarea id="comments" name="comments" rows="4" cols="50"
-            placeholder="Enter your message here..."></textarea><br>
-        <button type="submit">Submit</button>
-    </form>
-    <hr>
-    <h3>Validation in Html</h3>
-    <form action="">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        <button type="submit">Submit</button>
-    </form>
-
-
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
